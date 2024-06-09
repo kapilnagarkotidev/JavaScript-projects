@@ -3,12 +3,6 @@ let userGuess = document.querySelector('#guess').value;
 let submit = document.querySelector('.btn');
 let result = document.querySelector('.result');
 
-// if(userGuess == randomNum){
-//     result.innerHTML  = 'Congratulation...'
-// }
-// else{
-//     result.innerHTML = 'Sorry try again...'
-// }
 
 submit.addEventListener('click', () => {
     if(userGuess == randomNum){
